@@ -22,4 +22,4 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(30)).to eq "fizzbuzz"
     expect(fizzbuzz(15)).to eq "fizzbuzz"
   end
-end
+end 
