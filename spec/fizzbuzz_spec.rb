@@ -11,11 +11,15 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(2)).to eq 2
   end
   it 'returns "fizz" if number is divisible by 3' do
-    expect(fizzbuzz(30)).to eq "fizz"
+    expect(fizzbuzz(12)).to eq "fizz"
     expect(fizzbuzz(9)).to eq "fizz"
   end
   it 'returns "buzz" if number is divisible by 5' do
     expect(fizzbuzz(50)).to eq "buzz"
     expect(fizzbuzz(25)).to eq "buzz"
+  end
+  it 'return "fizzbuzz" if number is divisible by 3 AND 5' do
+    expect(fizzbuzz(30)).to eq "fizzbuzz"
+    expect(fizzbuzz(15)).to eq "fizzbuzz"
   end
 end
